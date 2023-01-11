@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    background-color: white;
+}
+
+.header__con{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.header__services #supports{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

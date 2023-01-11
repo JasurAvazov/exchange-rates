@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container header__con">
+            <button>menu</button>
+            <a href="#">logo</a>
+            <div class="header__services">
+                <form action="/action_page.php">
+                    <select name="languages" id="languages">
+                      <option class="language" value="uzb">uzb</option>
+                      <option class="language" value="ru">ru</option>
+                      <option class="language" value="en">en</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </header>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="scripts/app.js"></script>
 </body>
 </html>
